@@ -1,0 +1,122 @@
+@CHARSET "utf-8";
+
+	body
+	{
+		width: 680px;
+		margin: 0px auto;
+	}
+	
+	header
+	{
+		width: 680px;
+	}
+
+	header p
+	{
+		font-size: 12px;
+		text-align: right;
+		color: dimgray;
+	}
+	
+	header h1
+	{
+		font-size: 40px;
+		text-align: center;
+		color: black;
+		text-shadow: 2px 2px 5px black;
+	}
+	
+	header h2
+	{
+		font-size: 20px;
+		text-align: right;
+		color: dimgray;
+	}
+	
+	header nav
+	{
+		background: dimgray;
+		border-top: 3px solid black;
+		border-bottom: 3px solid black;
+		
+	}
+	
+	header nav a
+	{
+		font-family: "나눔스퀘어";
+		font-size: 20px;
+	}
+	
+	header nav a:link
+	{
+		 font-weight: bold;
+		color:white;
+		text-decoration: none;
+	}
+	
+	header nav a:VISITED
+	{
+		
+		color:white;
+		text-decoration: none;
+		 font-weight: bold;
+	}
+	
+	header nav a:hover
+	{
+		
+		color:deeppink;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	
+	header nav ul
+	{
+		
+	}
+	
+	header nav li
+	{
+		text-align: center;
+		list-style-type: none;
+		display: inline;
+		margin: 20px;
+		color: snowwhite;
+	}
+	
+	section
+	{
+		width: 680px;
+		margin: 5px;
+	}
+	
+	#mainImg
+	{
+		width: 300px;
+		float: left;
+	}
+	
+	#mainImg img
+	{
+		width: 300px;
+		
+	}
+	
+	#mainMenu
+	{
+		width: 360px;
+		float: left;
+		margin: 10px;
+	}
+	
+	footer
+	{
+		width: 680px;
+		clear: both;
+	}
+	
+	footer p
+	{
+		text-align: center;
+	}
+}
